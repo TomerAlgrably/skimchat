@@ -1,0 +1,10 @@
+# secrets: every .env file except the example
+.env*
+!.env.example
+
+# dependencies
+node_modules/
+
+# local database (SQLite also writes -wal, -shm and -journal files next to it)
+*.db
+*.db-*
